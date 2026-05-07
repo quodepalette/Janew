@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Jane Washington — Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Jane Washington — Full Stack Developer">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" sizes="16x16"
+        href="https://res.cloudinary.com/dkds78kb3/image/upload/v1775916268/4_so2utw.png" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo-text"><span class="prompt">~/dev $&nbsp;</span>j.washington<span
+                    class="cblink"></span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">home</a>
+                <a href="#about">about</a>
+                <a href="#skills">skills</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">contact</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-nav-link">home</a>
+        <a href="#about" class="mobile-nav-link">about</a>
+        <a href="#skills" class="mobile-nav-link">skills</a>
+        <a href="#projects" class="mobile-nav-link">projects</a>
+        <a href="#contact" class="mobile-nav-link">contact</a>
+    </div>
+
+    <!-- Hero -->
+    <section id="home">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-scan"></div>
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-prompt"><span class="sym">~/dev/portfolio $</span> init --author</div>
+                <h1 class="hero-name">Jane<span class="purp-line"><span class="glitch-wrap"
+                            data-text="Washington.">Washington.</span></span></h1>
+                <p class="hero-role">Full Stack Developer</p>
+                <p class="hero-desc">
+                    <span class="cmt">// building things that matter</span>
+                    Merging technical precision with design intuition — robust architecture, interfaces that delight.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary"><span>./view-work</span> <i class="fas fa-terminal"></i></a>
+                    <a href="#contact" class="btn-secondary">get-in-touch <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <div class="hero-img-frame reveal reveal-delay-2">
+                    <img src="https://images.unsplash.com/photo-1667581031016-5042e2396c88?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Jane Washington">
+                    <div class="corner-br"></div>
+                    <div class="hero-tech-strip">
+                        <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js"></i><i
+                            class="fab fa-react"></i><i class="fab fa-node-js"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">
+        
+            <div class="scroll-mouse">
+                <div class="scroll-mouse-dot"></div>
+            </div>
+            <span>scroll_down</span>
+        </div> -->
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="section-tag reveal">about_me</div>
+        <h2 class="section-title reveal reveal-delay-1">CREATING <em>DIGITAL</em><br>EXPERIENCES</h2>
+        <div class="about-grid">
+            <div class="reveal reveal-delay-2">
+                <p class="about-intro">"The intersection of engineering rigour and design sensibility is where I live."
+                </p>
+                <p class="about-body">Passionate full-stack developer with 5 years building applications that don't just
+                    function — they resonate. Specialising in JavaScript across the whole stack: React.js, Node.js,
+                    Express, MongoDB.</p>
+                <p class="about-body">Deep technical expertise meets considered aesthetic eye — applications that feel
+                    inevitable in design and robust in architecture.</p>
+                <div class="about-info-list">
+                    <div class="about-info-item"><span class="label">name</span><span class="value">Jane
+                            Washington</span></div>
+                    <div class="about-info-item"><span class="label">email</span><span
+                            class="value">jane.washington@info.com</span></div>
+                    <div class="about-info-item"><span class="label">location</span><span class="value">San Francisco,
+                            CA</span></div>
+                    <div class="about-info-item"><span class="label">status</span><span class="value"
+                            style="color:var(--purp)">open_to_work</span></div>
+                </div>
+                <a href="#" class="btn-primary"><span>./download-cv</span> <i class="fas fa-download"></i></a>
+            </div>
+            <div class="about-stats-grid reveal reveal-delay-3">
+                <div class="stat-box">
+                    <div class="stat-num" data-count="5">0<span>+</span></div>
+                    <div class="stat-label">years_exp</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-num" data-count="50">0<span>+</span></div>
+                    <div class="stat-label">projects</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-num" data-count="30">0<span>+</span></div>
+                    <div class="stat-label">clients</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-num" data-count="10">0</div>
+                    <div class="stat-label">awards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section-tag reveal">tech_stack</div>
+        <h2 class="section-title reveal reveal-delay-1">SKILLS &amp; <em>TECH</em></h2>
+        <div class="skills-layout">
+            <div class="reveal reveal-delay-2">
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-header"><span class="skill-bar-name">HTML / CSS</span><span
+                            class="skill-bar-pct">95%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-header"><span class="skill-bar-name">JavaScript</span><span
+                            class="skill-bar-pct">90%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-header"><span class="skill-bar-name">React.js</span><span
+                            class="skill-bar-pct">85%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-header"><span class="skill-bar-name">Node.js</span><span
+                            class="skill-bar-pct">80%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-header"><span class="skill-bar-name">MongoDB</span><span
+                            class="skill-bar-pct">75%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal reveal-delay-3">
+                <div class="skills-grid-icons">
+                    <div class="skill-icon-tile" data-skill="v5.0"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                    <div class="skill-icon-tile" data-skill="v3.0"><i class="fab fa-css3-alt"></i><span>CSS3</span>
+                    </div>
+                    <div class="skill-icon-tile" data-skill="ES2024"><i class="fab fa-js"></i><span>JS</span></div>
+                    <div class="skill-icon-tile" data-skill="v18.x"><i class="fab fa-react"></i><span>React</span></div>
+                    <div class="skill-icon-tile" data-skill="v20.x"><i class="fab fa-node-js"></i><span>Node</span>
+                    </div>
+                    <div class="skill-icon-tile" data-skill="v2.x"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                    <div class="skill-icon-tile" data-skill="v7.x"><i class="fas fa-database"></i><span>Mongo</span>
+                    </div>
+                    <div class="skill-icon-tile" data-skill="v10.x"><i class="fab fa-npm"></i><span>npm</span></div>
+                    <div class="skill-icon-tile" data-skill="v24.x"><i class="fab fa-docker"></i><span>Docker</span>
+                    </div>
+                    <div class="skill-icon-tile" data-skill="SDK v3"><i class="fab fa-aws"></i><span>AWS</span></div>
+                    <div class="skill-icon-tile" data-skill="v4.x"><i class="fab fa-figma"></i><span>Figma</span></div>
+                    <div class="skill-icon-tile" data-skill="v1.x"><i class="fab fa-sass"></i><span>Sass</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="section-tag reveal">selected_work</div>
+        <h2 class="section-title reveal reveal-delay-1">SELECTED <em>PROJECTS</em></h2>
+        <div class="projects-grid">
+            <div class="project-card reveal reveal-delay-1">
+                <div style="overflow:hidden"><img class="project-img"
+                        src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                        alt="E-commerce Platform"></div>
+                <div class="project-body">
+                    <div class="project-num">01 // 2024</div>
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-desc">Real-time inventory, secure checkout, full admin dashboard.</p>
+                    <div class="project-tags"><span class="project-tag">React</span><span
+                            class="project-tag">Node.js</span><span class="project-tag">MongoDB</span></div>
+                    <div class="project-links"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i>
+                            live_demo</a><a href="#" class="project-link"><i class="fab fa-github"></i> source</a></div>
+                </div>
+            </div>
+            <div class="project-card reveal reveal-delay-2">
+                <div style="overflow:hidden"><img class="project-img"
+                        src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=800&auto=format&fit=crop"
+                        alt="Task Management App"></div>
+                <div class="project-body">
+                    <div class="project-num">02 // 2024</div>
+                    <h3 class="project-title">Task Manager App</h3>
+                    <p class="project-desc">Drag-and-drop boards, team collab, real-time notifications.</p>
+                    <div class="project-tags"><span class="project-tag">React</span><span
+                            class="project-tag">Redux</span><span class="project-tag">Firebase</span></div>
+                    <div class="project-links"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i>
+                            live_demo</a><a href="#" class="project-link"><i class="fab fa-github"></i> source</a></div>
+                </div>
+            </div>
+            <div class="project-card reveal reveal-delay-3">
+                <div style="overflow:hidden"><img class="project-img"
+                        src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop"
+                        alt="Portfolio Website"></div>
+                <div class="project-body">
+                    <div class="project-num">03 // 2023</div>
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-desc">Scroll animations, magnetic cursor, dynamic filtering.</p>
+                    <div class="project-tags"><span class="project-tag">HTML/CSS</span><span
+                            class="project-tag">JavaScript</span><span class="project-tag">GSAP</span></div>
+                    <div class="project-links"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i>
+                            live_demo</a><a href="#" class="project-link"><i class="fab fa-github"></i> source</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="projects-footer reveal"><a href="#" class="btn-secondary">./view-all-projects <i
+                    class="fas fa-arrow-right"></i></a></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="section-tag reveal">get_in_touch</div>
+        <h2 class="section-title reveal reveal-delay-1">LET'S <em>BUILD</em><br>TOGETHER</h2>
+        <div class="contact-grid">
+            <div class="reveal reveal-delay-2">
+                <p class="contact-intro">Open to collaborations, freelance work, and full-time opportunities. Let's
+                    build something great.</p>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-item-label">email</div>
+                            <div class="contact-item-value">jane.washington@info.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-box"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <div class="contact-item-label">phone</div>
+                            <div class="contact-item-value">+1 (555) 123-4567</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div class="contact-item-label">location</div>
+                            <div class="contact-item-value">San Francisco, CA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-row">
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="reveal reveal-delay-3">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-field"><label for="fname">name</label><input type="text" id="fname"
+                                placeholder="Jane Smith" required></div>
+                        <div class="form-field"><label for="femail">email</label><input type="email" id="femail"
+                                placeholder="jane@example.com" required></div>
+                    </div>
+                    <div class="form-field"><label for="fsubject">subject</label><input type="text" id="fsubject"
+                            placeholder="project_enquiry"></div>
+                    <div class="form-field"><label for="fmessage">message</label><textarea id="fmessage" rows="5"
+                            placeholder="// tell me about your project..." required></textarea></div>
+                    <div class="form-submit-wrap">
+                        <span class="form-note">response within 24 hours</span>
+                        <div>
+                            <button type="submit" class="btn-primary"><span>./send-message</span> <i
+                                    class="fas fa-paper-plane"></i></button>
+                            <div class="form-success" id="formSuccess"><i class="fas fa-check"></i> message_sent!</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <button class="back-top" id="backTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer>
+        <div class="footer-inner">
+            <p class="footer-copy"><span id="footerYear"></span> Jane Washington. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">home</a><a href="#about">about</a><a href="#skills">skills</a><a
+                    href="#projects">projects</a><a href="#contact">contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
